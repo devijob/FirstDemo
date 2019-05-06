@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+			<title>Basic form</title>
+	</head>
+	<body style="background-color:pink">
+	<center><h3> Online Course</h3>
+		<form>
+			<label>First name: <input placeholder="enter your first name" type="text" maxlength="25"></label></br></br>
+			<label>Last name: <input placeholder="enter your last name"type="text" maxlength="25"></label></br></br>
+			<label for="telephone">Telephone:</label>
+			<input placeholder="enter your telephone no"  id="telephone" type=tel name="telephone"></br></br>
+			<label for="address">Address:</label>
+			<textarea placeholder="enter your address" maxlength="150" id="address"></textarea></br></br>
+			<label for="favoriteBrowser">Which is your favorite Browser?</label>
+			<select name="dropdown">
+				<option value=""selected>Choose here</option>
+				<option value="browserChrome">Chrome</option>
+				<option value="browserFireFox">FireFox</option>
+				<option value="browserSafori">Safori</option>
+			</select></br></br>
+			<label for="gender">Gender:</label>
+			<input align="middle" type="radio" id="gender" name="gender" value=gender>
+			<label for ="male">Male</label>
+			<input type="radio" id="gender" name="gender" value=gender>
+			<label for ="female">Female</label></br></br>
+			
+			<label for="course">Course you are interested:</label>
+			<input type="checkbox" id="course" name="course"  value=course>
+			<label for ="java">Java</label>
+			<input type="checkbox" id="course" name="course" value=course>
+			<label for ="mysql">MySql</label></br></br>
+			
+			<label><input type="submit"></label>
+		</center>
+		</form>
+	</body>
+</html>
