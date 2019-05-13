@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+class college
+{
+int clg_code;
+string clg_name;
+}
+public department:public college
+{
+
+}
