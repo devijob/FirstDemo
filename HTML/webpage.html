@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Udemy</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="D:\html\webpage.css">
+<link rel="stylesheet" type="text/css" href="jquery-ui-1.12.1.custom/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="jquery-timepicker-1.11.15-0/jquery.timepicker.css">
+<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+
+<script type="text/javascript" src="jquery-timepicker-1.11.15-0/jquery.timepicker.js"></script>
+<script type="text/javascript" src="validations.js"></script>
+</head>
+<body>
+
+<header>
+  <h2>Udemy Website</h2>
+</header>
+
+<section>
+
+  <nav class="navbar">
+    <ul class="group">
+		<li><a href ="#home" class="active">Home</a></li>
+		<li><a href="#login">Login</a></li>
+		<li><a href="#register"> User Registration form</a></li>
+		<li><a href="#details">User Register Details</a></li>
+		<li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+
+  <div class="home">
+   <div class="page" id="home">
+  
+	<div class="row">
+		<div class="col col-xs-6">
+			<p>W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding.</p>
+			<p>Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. </p>
+		</div>
+		<div class="col col-xs-6">
+			<p>W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding.</p>
+			<p>Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. </p>
+		</div>
+	</div>
+    <h1>Welcome to udemy,</h1>
+    <p>We have many courses in our website.kindly register and access the courses you needed.We will provide you certificate for all enrolled courses of you.</p>
+    <p>The world’s largest selection of courses Choose from over 100,000 online video courses with new additions published every month.Get unlimited access to 3,000+ of Udemy’s top courses for your team.Udemy.com is an online learning platform. It is aimed at professional adults. Unlike academic massive open online course programs which are driven by traditional collegiate coursework, Udemy uses content from online content creators to sell for profit.</p>
+</div>
+  <div class="page" id="login">
+  <link rel="stylesheet" href="D:\html\webpage.css">
+  <form class="stdform" onsubmit="return validate()">
+  <table>
+  <div id="draggable" class="ui-widget-content">
+				<p><center>Photo<center></p></div>
+			<div id="droppable" class="ui-widget-header">
+				<p>Drop here</p></div>
+		<tr>
+		<td><h2>Login:</h2></td>
+		</tr>
+			<tr>
+				<td>UserName:</td>
+				<td><input placeholder="enter your user name" type="text" id="uname" name="uname" required><span class="Error" id="unameError"></span></td>
+			</tr>
+			<tr>
+				<td>Password:</td>
+				<td><input placeholder="enter your password" type="password" id="password" name="password" required><span class="Error" id="passwordError"></span></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Login"></td>
+			</tr>
+	</table>
+	</form>
+</div>
+  <div class="page" id="register">
+
+  <h3> <center>Online Course Registration</center></h3></br>
+  
+	<form class="stdform" onsubmit="return validate()">
+		<table>
+		
+			<tr>
+				<td>Name:</td>
+				<td><input placeholder="enter your first name" type="text" id="name" name="name" ><span class="Error" id="nameError"></span></td>
+				
+			</tr>
+			</tr>
+			
+			<tr>
+				<td>Age:</td>
+				<td><input placeholder="enter your age"  id="age" type="text" name="age" ><span class="Error" id="ageError"></td>
+			<tr>
+				<td>Mobile Number: </td>
+				<td><input placeholder="enter your mobile no"  id="mobile" name="mobile" type="text" value=""><span class="Error" id="mobileError"></td>
+			</tr>
+		
+			<tr>
+				<td>Email id: </td>
+				<td><input type="text" id="email" placeholder="Enter Email" name="email" ><span class="Error" id="emailError"></span><br></td>
+			</tr>
+			<tr>
+				<td>Date of Birth:</td>
+				<td><input id="tdDate" name="date" type="text" placeholder="enter birth date"></td>
+			</tr>
+			<tr>
+				<td>Time of Registration:</td>
+				<td><input id="tdTime" name="time" type="text" placeholder="enter birth time"></td>
+			</tr>
+			<tr>
+				<td><div class="formElement"><span> Which is your favorite Browser? </span></td>
+				<td><select  id="browser" name="dropdown" >
+				<option>Choose here</option>
+				<option value="Chrome">Chrome</option>
+				<option value="FireFox">FireFox</option>
+				<option value="Safori">Safori</option>
+			</select></div></td>
+			</tr>
+			<tr>
+				<td><span>Gender:</span> </td>
+				<td><input align="middle" type="radio" id="gender" name="gender" value="male"><span>Male</span></td>
+				<td><input type="radio" id="gender" name="gender" value="female" ><span>Female<span></td>
+			</tr>
+			<tr>
+				<td><span>Course you are interested:</span></td>
+				<td><input type="checkbox" id="course" name="course" value="c">C</td>
+				<td><input type="checkbox" id="course" name="course" value="c++">C++</td>
+				<td><input type="checkbox" id="course" name="course"  value="java">Java</td>
+				
+			</tr>
+			<tr>
+			<td></td>
+				<td><input class="formElementIP" type="Submit" value="submit form"></td>
+			</tr>
+		</table>
+		
+	<form>
+ 
+  
+  </div>
+  
+  <div class="page" id="details">
+   <form>
+	<center><h1> Online Course Details</h1>
+	<table cellpadding="10">
+	
+		<thead>
+		<tr>
+			<th>S.No</th>
+			<th>First name</th>
+			<th>Last name</th>
+			<th>Phone number</th>
+			<th>Favorite browser </th>  
+			<th>Gender</th>
+			<th>Course interested</th>
+		</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th>1</td>
+				<td>Devi</td>
+				<td>priya</td>
+				<td>754875487</td>
+				<td>chrome</td>
+				<td>female</td>
+				<td>java</td>
+			</tr>
+			
+			<tr>
+				<th>2</td>
+				<td>Sri</td>
+				<td>priya</td>
+				<td>754875487</td>
+				<td>firefox</td>
+				<td>female</td>
+				<td>python</td>
+			</tr>
+			
+			<tr>
+				<th>3</td>
+				<td>Vidhya</td>
+				<td>ram</td>
+				<td>974875487</td>
+				<td>safori</td>
+				<td>female</td>
+				<td>c++</td>
+			</tr>
+			
+			<tr>
+				<th>4</td>
+				<td>Archana</td>
+				<td>kanagaraj</td>
+				<td>946875487</td>
+				<td>chrome</td>
+				<td>female</td>
+				<td>c#</td>
+			</tr>
+			
+			<tr>
+				<th>5</td>
+				<td>Vimal</td>
+				<td>raj</td>
+				<td>987875487</td>
+				<td>safori</td>
+				<td>male</td>
+				<td>javascript</td>
+			</tr>
+			
+			<tr>
+				<th>6</td>
+				<td>Raja</td>
+				<td>ram</td>
+				<td>967875487</td>
+				<td>firefox</td>
+				<td>male</td>
+				<td>mysql</td>
+			</tr>
+			
+			<tr>
+				<th>7</td>
+				<td>Suganya</td>
+				<td>arumugam</td>
+				<td>956875487</td>
+				<td>chrome</td>
+				<td>female</td>
+				<td>html</td>
+			</tr>
+			
+			<tr>
+				<th>8</td>
+				<td>Joshi</td>
+				<td>vijay</td>
+				<td>789875487</td>
+				<td>safori</td>
+				<td>female</td>
+				<td>python</td>
+			</tr>
+			
+			<tr>
+				<th>9</td>
+				<td>Kavi</td>
+				<td>priya</td>
+				<td>745875487</td>
+				<td>chrome</td>
+				<td>female</td>
+				<td>node</td>
+			</tr>
+			
+			<tr>
+				<th>10</td>
+				<td>Mani</td>
+				<td>mozhi</td>
+				<td>765875487</td>
+				<td>firefox</td>
+				<td>female</td>
+				<td>angular</td>
+			</tr>
+			<tr>
+				<th>11</td>
+				<td>sangeetha</td>
+				<td>devi</td>
+				<td>766775487</td>
+				<td>firefox</td>
+				<td>female</td>
+				<td>C</td>
+			</tr>
+		</tbody>
+	</table>
+	</center>
+	</form>
+  </div>
+  <div class="page" id="contact">
+   <center><h2> Online Course Details</h2>
+
+  <table>
+  <tr>
+ <td>Bala Murugan:</td>
+  <td>7897467865</td>
+  </tr>
+  <tr>
+  <td>Siva anand:</td>
+  <td>7997468865</td>
+  </tr>
+  <tr>
+  <td>Selvi tanigaivel:</td>
+  <td>76457837397</td>
+  </tr>
+  </table>
+  </div>
+  </div>
+  </article>
+</section>
+
+<footer>
+  <p>Trusted by companies of all sizes</p>
+  <p>Copyright &copy 2019 Udemy, Inc.</p>
+</footer>
+<script type="text/javascript" src="jquery-3.4.1.min"></script>
+<script type="text/javascript" src="jquery-ui.min"></script>
+
+</body>
+
+</html>

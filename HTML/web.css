@@ -1,0 +1,36 @@
+body{
+	margin:2%;
+	font-size:90%;
+	//background-image: url("web11.jpg");
+	//background-repeat:no-repeat;
+	//background-size:cover;
+	
+}
+
+ul {
+  list-style-type: none;
+  margin: 8px;
+  padding: 0;
+  overflow:hidden;
+  background-color: #f1f1f1;
+  border:1px solid #e7e7e7;
+  border-bottom: 6px solid 
+}
+li{
+	border: 1px solid #000;
+	border-right: 1px solid #bbb;
+	float:left;
+}
+
+li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+	
